@@ -1,12 +1,13 @@
 body {
   background-color: rgb(226, 226, 226);
+  font-family: cursive;
 }
 .background-icon {
   opacity: 0.3;
   color: rgb(250, 94, 229);
   position: fixed;
   width: 100%;
-  margin: 10% 0;
+  margin: 0;
   text-align: center;
   font-size: 60vw;
   transform: all 0.3s;
@@ -21,11 +22,11 @@ body {
   position: fixed;
   top: 30%;
   left: 30%;
-  font-size: clamp(20px, 10vw, 130px);
+  font-size: clamp(20px, 10vw, 140px);
 }
 .min-max-temp {
   position: fixed;
-  top: 45%;
+  top: 50%;
   left: 26%;
   font-size: clamp(20px, 7vw, 130px);
 }
