@@ -1,0 +1,72 @@
+body {
+  background-color: rgb(226, 226, 226);
+}
+.background-icon {
+  opacity: 0.3;
+  color: rgb(250, 94, 229);
+  position: fixed;
+  width: 100%;
+  margin: 10% 0;
+  text-align: center;
+  font-size: 60vw;
+  transform: all 0.3s;
+}
+.city-name {
+  position: fixed;
+  top: 10%;
+  left: 15%;
+  font-size: clamp(40px, 8vw, 100px);
+}
+.main-temp {
+  position: fixed;
+  top: 30%;
+  left: 30%;
+  font-size: clamp(20px, 10vw, 130px);
+}
+.min-max-temp {
+  position: fixed;
+  top: 45%;
+  left: 26%;
+  font-size: clamp(20px, 7vw, 130px);
+}
+.icon-div {
+  position: fixed;
+  top: 2%;
+  right: 5%;
+  text-align: right;
+  font-size: clamp(20px, 7vw, 50px);
+}
+.icon-div > p {
+  margin: 0;
+}
+.icon-div > i {
+  color: rgb(143, 140, 132);
+}
+
+@media screen and (max-width: 600px) {
+  .background-icon {
+    margin: 40% 0;
+  }
+  .city-name {
+    top: 13%;
+    left: 15%;
+  }
+  .main-temp {
+    top: 30%;
+    left: 30%;
+  }
+  .min-max-temp {
+    top: 38%;
+    left: 26%;
+  }
+  .icon-div {
+    top: 5%;
+    right: 10%;
+  }
+  .icon-div > p {
+    margin: 0;
+  }
+  .icon-div > i {
+    color: rgb(143, 140, 132);
+  }
+}

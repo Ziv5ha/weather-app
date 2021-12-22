@@ -1,0 +1,22 @@
+.search {
+  position: fixed;
+  top: 3%;
+  left: 5%;
+}
+.search-input {
+  border-radius: 0.5em;
+  padding: 0.3em;
+  font-size: 1.2em;
+  width: 7em;
+}
+.seatch-btn {
+  border-radius: 0.5em;
+  padding: 0.3em;
+  font-size: 1.2em;
+  background-color: rgb(250, 94, 229);
+  opacity: 0.5;
+  margin: 0 0.4em;
+}
+.seatch-btn:hover {
+  opacity: 0.6;
+}
