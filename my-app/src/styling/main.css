@@ -42,6 +42,11 @@ body {
 .icon-div > i {
   color: rgb(143, 140, 132);
 }
+.empty {
+  text-align: center;
+  margin-top: 30vw;
+  font-size: clamp(20px, 10vw, 200px);
+}
 
 @media screen and (max-width: 600px) {
   .background-icon {

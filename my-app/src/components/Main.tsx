@@ -22,7 +22,7 @@ export default function Main() {
     </main>
   ) : (
     <main>
-      <h2>Search A City</h2>
+      <h2 className='empty'>Search A City</h2>
     </main>
   );
 }
